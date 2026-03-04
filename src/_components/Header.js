@@ -68,10 +68,17 @@ function Header() {
       <div
         className={`fixed top-0 right-0 h-full w-[70%] sm:w-[60%] bg-bgColor z-40 transform ${
           open ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-500 ease-in-out md:hidden`}
+        } transition-transform duration-500 ease-in-out md:hidden flex flex-col`}
       >
+        {/* Close button row */}
+        <div className="flex justify-end p-4 flex-shrink-0">
+          <button onClick={() => setOpen(false)} className="text-textColor hover:text-white">
+            <IconX stroke={2} size={32} />
+          </button>
+        </div>
+        {/* Scrollable nav links */}
         <div
-          className={`flex flex-col items-center   h-full justify-center gap-y-10 font-mono ${
+          className={`flex flex-col items-center overflow-y-auto flex-1 py-6 gap-y-8 font-mono ${
             open ? "shadow-primaryColor shadow-xl" : ""
           }`}
         >
