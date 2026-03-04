@@ -1,7 +1,13 @@
-.App {
+\portfolio> npm start
+
+> portfolio@0.1.0 start
+> react-scripts start
+
+Could not find a required file.
+  Name: index.html
+  Searched in: D:\VS code\Projects\portfolio new\portfolio\public .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
