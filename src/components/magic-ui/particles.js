@@ -74,15 +74,15 @@ const Particles = ({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [color]);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     onMouseMove();
   }, [mousePosition.x, mousePosition.y]);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     initCanvas();
   }, [refresh]);
+  /* eslint-enable react-hooks/exhaustive-deps */
 
   const initCanvas = () => {
     resizeCanvas();

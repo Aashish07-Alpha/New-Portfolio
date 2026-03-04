@@ -374,17 +374,6 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
-// Helper to build ProjectCard-compatible objects from the projects array
-// eslint-disable-next-line no-unused-vars
-const mapToCardFormat = (p) => ({
-  projectName: p.title,
-  skills: p.tags,
-  imgPath: p.image.replace(/\.jpg$/, ""),
-  gitHubLink: p.github,
-  liveLink: p.webapp,
-  description: p.description,
-  features: p.tags.map((t) => `• ${t}`),
-});
 
 export const top3 = [
   {
