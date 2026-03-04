@@ -33,12 +33,32 @@ function Header() {
       className={`${loading && "hidden"} bg-bgColor shadow-black shadow-md text-textColor w-full fixed top-0 z-50 h-[10vh] md:h-[15vh] flex justify-between items-center px-4 md:px-8`}
     >
       <div>
-        <span
-          className="font-mono font-bold text-3xl md:text-4xl tracking-tight"
-          style={{ color: "#64FFDA" }}
+        <svg
+          viewBox="0 0 100 115"
+          className="w-12 h-12 md:w-14 md:h-14"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          AS
-        </span>
+          {/* Hexagon shape */}
+          <polygon
+            points="50,3 97,27.5 97,87.5 50,112 3,87.5 3,27.5"
+            fill="none"
+            stroke="#64FFDA"
+            strokeWidth="4"
+            strokeLinejoin="round"
+          />
+          {/* AS text centered */}
+          <text
+            x="50"
+            y="68"
+            textAnchor="middle"
+            fill="#64FFDA"
+            fontSize="36"
+            fontFamily="monospace"
+            fontWeight="bold"
+          >
+            AS
+          </text>
+        </svg>
       </div>
 
       <nav className={`md:flex gap-5 hidden font-mono`}>
