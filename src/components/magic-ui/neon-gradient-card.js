@@ -81,7 +81,7 @@ const NeonGradientCard = ({
           "after:h-[var(--pseudo-element-height)] after:w-[var(--pseudo-element-width)] after:rounded-[var(--border-radius)] after:blur-[var(--after-blur)] after:content-['']",
           "after:bg-[linear-gradient(0deg,var(--neon-first-color),var(--neon-second-color))] after:bg-[length:100%_200%] after:opacity-80",
           "after:animate-backgroundPositionSpin",
-          "bg-[#112240] dark:bg-transparent",
+          "bg-black dark:bg-transparent",
           contentClassName,
         )}
       >

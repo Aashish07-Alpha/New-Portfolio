@@ -20,7 +20,7 @@ function Experience() {
     >
       {/* Heading */}
       <SparklesText
-        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3"
+        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3 font-playfair"
         text="Experience"
         sparklesCount={4}
       />
@@ -49,7 +49,7 @@ function Experience() {
               <div className="absolute left-[11px] top-6 w-4 h-4 rounded-full border-2 border-primaryColor bg-bgColor shadow-[0_0_8px_2px_#64FFDA55]" />
 
               {/* Card */}
-              <div className="group relative bg-[#0d1f38] rounded-xl p-5 md:p-6 border border-primaryColor/20 shadow-lg hover:border-primaryColor/60 hover:shadow-[0_0_20px_2px_#64FFDA18] transition-all duration-300">
+              <div className="group relative bg-black rounded-xl p-5 md:p-6 border border-primaryColor/20 shadow-lg hover:border-primaryColor/60 hover:shadow-[0_0_20px_2px_#64FFDA18] transition-all duration-300">
 
                 {/* Top row */}
                 <div className="flex items-start gap-4 mb-4">

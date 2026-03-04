@@ -77,7 +77,7 @@ function Hero() {
           </span>
         </div>
         <p
-          className={`text-white/60 px-8 ml-3 text-center text-pretty text-sm font-bold  lg:text-start lg:px-0 lg:ml-0 lg:text-xl lg:font-semibold`}
+          className={`text-white/60 px-8 ml-3 text-center text-pretty text-sm font-ubuntu lg:text-start lg:px-0 lg:ml-0 lg:text-xl`}
         >
           {Info.bio}
         </p>

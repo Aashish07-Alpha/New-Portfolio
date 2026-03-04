@@ -7,7 +7,7 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconMail,
 function Connect() {
   return (
     <section id="Connect" className="w-full min-n-h-full relative bg-bgColor pb-5">
-      <h1 className="text-xl md:text-5xl font-bold text-white mt-1 text-center px-4">
+      <h1 className="text-xl md:text-5xl font-bold text-white mt-1 text-center px-4 font-playfair">
         Connect with me!
       </h1>
 

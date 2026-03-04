@@ -10,7 +10,7 @@ const Mail = () => {
     return () => {};
   }, []);
   return (
-    <main className={`${loading && "md:hidden"} md:flex hidden text-textColor items-center gap-10 fixed bottom-32 -right-48 rotate-90`}>
+    <main className={`${loading && "md:hidden"} md:flex hidden text-textColor items-center gap-10 fixed bottom-32 -right-48 rotate-90 z-30`}>
       <div className="flex px-2">
         <a
           href="mailto:ashishsurya2005@gmail.com"

@@ -27,7 +27,7 @@ function Achievements() {
       className="w-full min-h-full bg-bgColor py-12 px-4 md:px-12"
     >
       <SparklesText
-        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3"
+        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3 font-playfair"
         text="Achievements"
         sparklesCount={4}
       />
@@ -46,7 +46,7 @@ function Achievements() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
               variants={cardVariants}
-              className={`group relative bg-[#0d1f38] rounded-xl p-6 border ${colors.border} hover:border-primaryColor/70 hover:shadow-[0_0_24px_2px_#64FFDA18] transition-all duration-300 flex flex-col gap-4`}
+              className={`group relative bg-black rounded-xl p-6 border ${colors.border} hover:border-primaryColor/70 hover:shadow-[0_0_24px_2px_#64FFDA18] transition-all duration-300 flex flex-col gap-4`}
             >
               {/* Trophy icon header */}
               <div className="flex items-start justify-between gap-3">

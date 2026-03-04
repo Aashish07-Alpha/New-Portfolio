@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id="Projects" className="w-full min-h-full mt-2 bg-bgColor !overflow-hidden">
       <SparklesText
-        className={`text-3xl md:text-5xl text-white font-bold text-center mt-2`}
+        className={`text-3xl md:text-5xl text-white font-bold text-center mt-2 font-playfair`}
         text="Projects"
         sparklesCount={4}
       />

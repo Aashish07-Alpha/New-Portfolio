@@ -1,6 +1,5 @@
 "use client";
 
-import { IconHexagonLetterA } from "@tabler/icons-react";
 import { IconMenu2 } from "@tabler/icons-react";
 import { IconX } from "@tabler/icons-react";
 import { Link } from "react-scroll";
@@ -34,7 +33,12 @@ function Header() {
       className={`${loading && "hidden"} bg-bgColor shadow-black shadow-md text-textColor w-full fixed top-0 z-50 h-[10vh] md:h-[15vh] flex justify-between items-center px-4 md:px-8`}
     >
       <div>
-        <IconHexagonLetterA size={60} color="#64FFDA" stroke={1.25} />
+        <span
+          className="font-mono font-bold text-3xl md:text-4xl tracking-tight"
+          style={{ color: "#64FFDA" }}
+        >
+          AS
+        </span>
       </div>
 
       <nav className={`md:flex gap-5 hidden font-mono`}>

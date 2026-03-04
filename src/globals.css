@@ -5,7 +5,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-color: #112240;
+  background-color: #000000;
   min-height: 100%;
 }
 
@@ -13,12 +13,12 @@ body {
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   /* background-color: red; */
-  background-color: #112240;
+  background-color: #000000;
 }
 ::-webkit-scrollbar {
   width: 4px;
   /* background-color: yellow; */
-  background-color: #112240;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {

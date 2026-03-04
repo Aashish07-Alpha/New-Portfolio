@@ -11,7 +11,7 @@ function Education() {
       className="w-full min-h-full bg-bgColor py-12 px-4 md:px-16"
     >
       <SparklesText
-        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3"
+        className="text-3xl md:text-5xl text-white font-bold text-center mt-2 mb-3 font-playfair"
         text="Education"
         sparklesCount={4}
       />
@@ -102,7 +102,7 @@ function Education() {
 
 function EduCard({ edu }) {
   return (
-    <div className="group relative bg-[#0a1929] rounded-2xl overflow-hidden border border-primaryColor/20 hover:border-primaryColor/60 hover:shadow-[0_0_28px_4px_#64FFDA12] transition-all duration-300">
+    <div className="group relative bg-black rounded-2xl overflow-hidden border border-primaryColor/20 hover:border-primaryColor/60 hover:shadow-[0_0_28px_4px_#64FFDA12] transition-all duration-300">
       {/* Teal top bar */}
       <div className="h-1 w-full bg-gradient-to-r from-primaryColor/60 via-primaryColor to-primaryColor/30" />
 
